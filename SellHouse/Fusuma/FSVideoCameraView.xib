@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view hidden="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="FSVideoCameraView" customModule="SelfieYo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hO-Ct-VD5">
+                    <rect key="frame" x="0.0" y="44" width="375" height="375"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="1hO-Ct-VD5" secondAttribute="height" multiplier="1:1" id="arg-dE-YXI"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hK-pW-0DW">
+                    <rect key="frame" x="0.0" y="44" width="375" height="375"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gh-EB-weA">
+                    <rect key="frame" x="0.0" y="419" width="375" height="184"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPV-fC-75T">
+                            <rect key="frame" x="15" y="72" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="GcK-Ga-JH3"/>
+                                <constraint firstAttribute="height" constant="40" id="TcK-3W-Kpf"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                            <state key="normal" image="cameraSwitchImage"/>
+                            <connections>
+                                <action selector="flipButtonPressedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="g39-eo-LHZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpy-ro-bt6" customClass="RecordButton" customModule="SelfieYo" customModuleProvider="target">
+                            <rect key="frame" x="150" y="55" width="75" height="75"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="75" id="BsM-o7-FiY"/>
+                                <constraint firstAttribute="width" constant="75" id="ggw-fN-Nue"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                            <state key="normal" image="video_button"/>
+                            <connections>
+                                <action selector="normalTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="hDW-or-6ye"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHq-QZ-jPz">
+                            <rect key="frame" x="320" y="82" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="C6F-2l-AWm"/>
+                                <constraint firstAttribute="height" constant="40" id="OR0-eQ-5pN"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                            <state key="normal" image="flash-off-2x"/>
+                            <connections>
+                                <action selector="flashButtonPressedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="jYd-9Y-6zZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfZ-yU-cJI" userLabel="Smile Button">
+                            <rect key="frame" x="318" y="71" width="42" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="RZT-bL-zjX"/>
+                                <constraint firstAttribute="width" constant="42" id="und-bk-Ce4"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="ic_smile_off">
+                                <color key="titleShadowColor" red="0.57230675220489502" green="0.57230675220489502" blue="0.57230675220489502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="ic_smile_on"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3F7-zr-85z">
+                            <rect key="frame" x="188" y="43" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="3F7-zr-85z" firstAttribute="centerX" secondItem="cpy-ro-bt6" secondAttribute="centerX" id="4qy-7g-Jay"/>
+                        <constraint firstItem="cpy-ro-bt6" firstAttribute="centerX" secondItem="6gh-EB-weA" secondAttribute="centerX" id="CPa-UK-eV1"/>
+                        <constraint firstItem="oPV-fC-75T" firstAttribute="centerY" secondItem="6gh-EB-weA" secondAttribute="centerY" id="D1d-s9-DBb"/>
+                        <constraint firstItem="oPV-fC-75T" firstAttribute="leading" secondItem="6gh-EB-weA" secondAttribute="leading" constant="15" id="GTv-Vt-Mwd"/>
+                        <constraint firstItem="cpy-ro-bt6" firstAttribute="centerY" secondItem="6gh-EB-weA" secondAttribute="centerY" id="USf-rF-Oy8"/>
+                        <constraint firstItem="yfZ-yU-cJI" firstAttribute="centerY" secondItem="6gh-EB-weA" secondAttribute="centerY" id="e5f-y1-1j0"/>
+                        <constraint firstItem="yHq-QZ-jPz" firstAttribute="centerY" secondItem="6gh-EB-weA" secondAttribute="centerY" constant="10" id="udF-Hg-0iR"/>
+                        <constraint firstItem="cpy-ro-bt6" firstAttribute="top" secondItem="3F7-zr-85z" secondAttribute="bottom" constant="12" id="w38-zM-8wT"/>
+                        <constraint firstAttribute="trailing" secondItem="yHq-QZ-jPz" secondAttribute="trailing" constant="15" id="x4Y-A2-snd"/>
+                        <constraint firstAttribute="trailing" secondItem="yfZ-yU-cJI" secondAttribute="trailing" constant="15" id="zhJ-ks-9sf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6gh-EB-weA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8DC-7U-0Ht"/>
+                <constraint firstItem="0hK-pW-0DW" firstAttribute="top" secondItem="1hO-Ct-VD5" secondAttribute="top" id="9BN-1s-HjN"/>
+                <constraint firstAttribute="bottom" secondItem="6gh-EB-weA" secondAttribute="bottom" id="IOQ-4M-Rye"/>
+                <constraint firstAttribute="trailing" secondItem="6gh-EB-weA" secondAttribute="trailing" id="Lge-9D-s38"/>
+                <constraint firstItem="0hK-pW-0DW" firstAttribute="trailing" secondItem="1hO-Ct-VD5" secondAttribute="trailing" id="T0c-Iy-Udn"/>
+                <constraint firstItem="0hK-pW-0DW" firstAttribute="leading" secondItem="1hO-Ct-VD5" secondAttribute="leading" id="aM9-Lk-r4C"/>
+                <constraint firstItem="0hK-pW-0DW" firstAttribute="bottom" secondItem="1hO-Ct-VD5" secondAttribute="bottom" id="eMG-sq-VAO"/>
+                <constraint firstItem="1hO-Ct-VD5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jgv-1d-3eo"/>
+                <constraint firstItem="1hO-Ct-VD5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="oFr-dP-dE0"/>
+                <constraint firstItem="6gh-EB-weA" firstAttribute="top" secondItem="1hO-Ct-VD5" secondAttribute="bottom" id="qL1-Cx-iWY"/>
+                <constraint firstAttribute="trailing" secondItem="1hO-Ct-VD5" secondAttribute="trailing" id="wO8-dr-6WT"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <connections>
+                <outlet property="buttonsViewContainer" destination="6gh-EB-weA" id="CSq-3G-1KO"/>
+                <outlet property="flashButton" destination="yHq-QZ-jPz" id="umV-Ve-W2b"/>
+                <outlet property="flipButton" destination="oPV-fC-75T" id="J96-fz-NnG"/>
+                <outlet property="previewViewContainer" destination="0hK-pW-0DW" id="8bh-3S-jSb"/>
+                <outlet property="previewViewContainerRef" destination="1hO-Ct-VD5" id="w5n-25-izb"/>
+                <outlet property="shotButton" destination="cpy-ro-bt6" id="SbF-vE-c2o"/>
+                <outlet property="smileButton" destination="yfZ-yU-cJI" id="8U9-p1-HMt"/>
+                <outlet property="timerLabel" destination="3F7-zr-85z" id="7cu-Zo-KtL"/>
+            </connections>
+            <point key="canvasLocation" x="519" y="448"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cameraSwitchImage" width="30" height="28"/>
+        <image name="flash-off-2x" width="23" height="26"/>
+        <image name="ic_smile_off" width="37" height="37"/>
+        <image name="ic_smile_on" width="37" height="37"/>
+        <image name="video_button" width="40" height="40"/>
+    </resources>
+</document>

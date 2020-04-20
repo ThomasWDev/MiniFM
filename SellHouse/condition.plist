@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>New with Tag</string>
+	<string>New without Tag</string>
+	<string>Excellent Used Condition</string>
+	<string>Very Good Used Condition</string>
+	<string>Good Used Condition</string>
+	<string>Play Condition</string>
+</array>
+</plist>

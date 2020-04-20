@@ -1,0 +1,112 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts-Swift (1.3.0)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CardIO (5.4.1)
+  - DACircularProgress (2.3.1)
+  - Facebook-iOS-SDK (3.24.4):
+    - Bolts (~> 1.2)
+  - IDMPhotoBrowser (1.11.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
+  - NVActivityIndicatorView (3.4)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - ParseFacebookUtils (1.10.0):
+    - Bolts/Tasks (~> 1.5)
+    - Facebook-iOS-SDK (~> 3.24)
+    - Parse (~> 1.9)
+  - ParseLiveQuery (1.1.0):
+    - Bolts-Swift (~> 1.3)
+    - Parse (~> 1.14.2)
+    - SocketRocket (~> 0.5)
+  - PayPal-iOS-SDK (2.17.0):
+    - PayPal-iOS-SDK/CardIO (= 2.17.0)
+    - PayPal-iOS-SDK/Core (= 2.17.0)
+  - PayPal-iOS-SDK/CardIO (2.17.0):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.17.0)
+  - pop (1.0.9)
+  - PullToRefreshSwift (3.0.3)
+  - RxSwift (3.2.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SlackTextViewController (1.9.5)
+  - SlideMenuControllerSwift (3.0.1)
+  - SocketRocket (0.5.1)
+  - TPKeyboardAvoiding (1.3.1)
+  - UIColor_Hex_Swift (3.0.2)
+  - UIScrollView-InfiniteScroll (0.9.1)
+
+DEPENDENCIES:
+  - CardIO
+  - Facebook-iOS-SDK
+  - IDMPhotoBrowser
+  - NVActivityIndicatorView
+  - ParseFacebookUtils
+  - ParseLiveQuery
+  - PayPal-iOS-SDK
+  - PullToRefreshSwift
+  - RxSwift
+  - SlackTextViewController
+  - SlideMenuControllerSwift
+  - TPKeyboardAvoiding
+  - UIColor_Hex_Swift
+  - UIScrollView-InfiniteScroll
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Bolts-Swift
+    - CardIO
+    - DACircularProgress
+    - Facebook-iOS-SDK
+    - IDMPhotoBrowser
+    - NVActivityIndicatorView
+    - Parse
+    - ParseFacebookUtils
+    - ParseLiveQuery
+    - PayPal-iOS-SDK
+    - pop
+    - PullToRefreshSwift
+    - RxSwift
+    - SDWebImage
+    - SlackTextViewController
+    - SlideMenuControllerSwift
+    - SocketRocket
+    - TPKeyboardAvoiding
+    - UIColor_Hex_Swift
+    - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Bolts-Swift: fa98d1b59fc1acea9b21a21306dcdca1c85e3737
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Facebook-iOS-SDK: 5a7c414a084708220b72d5fd016f2cf3eb6deda4
+  IDMPhotoBrowser: 14505b91019a96e36479606cb582f864446dae01
+  NVActivityIndicatorView: 5754be63ceecd1df8af37d3c088d81872feeb8b8
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  ParseFacebookUtils: 5f9b1faf5340241fd84837e4a5ff38dda0129cec
+  ParseLiveQuery: 4c0f3f571ba0f358a4e592cd7d4b55c95ab9655e
+  PayPal-iOS-SDK: 849321f6214a7187ee4cc684f63fe509df4c4a36
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PullToRefreshSwift: 0743b818072bfd7c9464addc2d1b987b131057ca
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SlackTextViewController: fbcdadbb8090673f604484ff5b6eb8d77baed42a
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+  UIScrollView-InfiniteScroll: 14e204c50ca4040467e1cbfa141dad7a18919b56
+
+PODFILE CHECKSUM: bc5e317d0d406d7c7065bc8890beddeb021c35c2
+
+COCOAPODS: 1.9.0.beta.2

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/davidtong/Desktop/ThomasWoodfin/Main project/Minifm/Mini Fashion.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mac/Documents/TBL/MiniFM/another/another/MiniFM .xcodeproj">
+   </FileRef>
+</Workspace>

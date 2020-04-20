@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Shoes</key>
+	<array>
+		<string>nb</string>
+		<string>0 Infant</string>
+		<string>1 Infant</string>
+		<string>2 Infant</string>
+		<string>3 Infant</string>
+		<string>4 Infant</string>
+		<string>4.5 Infant</string>
+		<string>5 Infant</string>
+		<string>5.5 Infant</string>
+		<string>6 Infant</string>
+		<string>6.5 Infant</string>
+		<string>7 Infant</string>
+		<string>7.5 Infant</string>
+		<string>8 Infant</string>
+		<string>8.5 Infant</string>
+		<string>9 Infant</string>
+		<string>9.5 Infant</string>
+		<string>10 Infant</string>
+		<string>0-3 mos</string>
+		<string>3-6 mos</string>
+		<string>6-9 mos</string>
+		<string>9-12 mos</string>
+		<string>6-12 mos</string>
+		<string>12-18 mos</string>
+		<string>18-24 mos</string>
+		<string>12-24 mos</string>
+		<string>10.5 Toddler</string>
+		<string>11 Toddler</string>
+		<string>11.5 Toddler</string>
+		<string>12 Little Kid</string>
+		<string>12.5 Little Kid</string>
+		<string>13 Little Kid</string>
+		<string>13.5 Little Kid</string>
+		<string>1 Little Kid</string>
+		<string>1.5 Little Kid</string>
+		<string>2 Big Kid</string>
+		<string>2.5 Big Kid</string>
+		<string>3 Big Kid</string>
+		<string>3.5 Big Kid</string>
+		<string>4 Big Kid</string>
+		<string>4.5 Big Kid</string>
+		<string>5 Big Kid</string>
+		<string>5.5 Big Kid</string>
+		<string>6 Big Kid</string>
+	</array>
+	<key>Accessories</key>
+	<array/>
+	<key>Books and Toys</key>
+	<array>
+		<string>N/A</string>
+		<string>One Size</string>
+	</array>
+	<key>Baby Essentials</key>
+	<array>
+		<string>N/A</string>
+		<string>XS</string>
+		<string>S</string>
+		<string>M</string>
+		<string>L</string>
+		<string>XL</string>
+		<string>One Size</string>
+	</array>
+	<key>Diaper Bags and Carriers</key>
+	<array>
+		<string>N/A</string>
+		<string>XS</string>
+		<string>S</string>
+		<string>M</string>
+		<string>L</string>
+		<string>XL</string>
+		<string>One Size</string>
+	</array>
+	<key>Room and Nursery</key>
+	<array>
+		<string>N/A</string>
+		<string>One Size</string>
+	</array>
+	<key>Meternity</key>
+	<array>
+		<string>0</string>
+		<string>2</string>
+		<string>4</string>
+		<string>6</string>
+		<string>7</string>
+		<string>8</string>
+		<string>9</string>
+		<string>10</string>
+		<string>11</string>
+		<string>12</string>
+		<string>14</string>
+		<string>16+</string>
+		<string>2XS</string>
+		<string>XS</string>
+		<string>S</string>
+		<string>M</string>
+		<string>L</string>
+		<string>XL</string>
+		<string>2XL</string>
+		<string>24</string>
+		<string>25</string>
+		<string>26</string>
+		<string>XXL</string>
+		<string>27</string>
+		<string>28</string>
+		<string>29</string>
+		<string>30</string>
+		<string>31</string>
+		<string>32</string>
+		<string>33</string>
+		<string>34</string>
+		<string>One Size</string>
+	</array>
+	<key>Clothing</key>
+	<array>
+		<string>nb</string>
+		<string>0-3 mo</string>
+		<string>3-6 mo</string>
+		<string>6-12 mo</string>
+		<string>12-18 mo</string>
+		<string>18-24 mo</string>
+		<string>2</string>
+		<string>2T</string>
+		<string>3</string>
+		<string>3T</string>
+		<string>4</string>
+		<string>4T</string>
+		<string>5</string>
+		<string>5T</string>
+		<string>6</string>
+		<string>7</string>
+		<string>8</string>
+		<string>9</string>
+		<string>10</string>
+		<string>11</string>
+		<string>12</string>
+		<string>14</string>
+		<string>16+</string>
+		<string>2XS</string>
+		<string>XS</string>
+		<string>S</string>
+		<string>M</string>
+		<string>L</string>
+		<string>XL</string>
+		<string>2XL</string>
+		<string>One Size</string>
+	</array>
+</dict>
+</plist>
